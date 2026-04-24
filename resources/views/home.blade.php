@@ -123,53 +123,44 @@
         </div>
       </div>
 
-      <!-- Text -->
+      <!-- Github Section -->
       <div class="col-lg-7" data-aos="zoom-in">
-        <h2 class="display-5 fw-bold text-white mb-5">
-          I am Product <span class="text-primary">Designer</span><br>& Web <span class="text-primary">Developer</span>
+        <h2 class="display-5 fw-bold text-white mb-4">
+          My <span class="text-primary">GitHub Activity</span>
         </h2>
 
-        <div class="row gy-3 mb-5">
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Experience:</strong> 
-              <span class="text-light">5 Years</span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Specialty:</strong> 
-              <span class="text-light">Developer</span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Address:</strong> 
-              <span class="text-light">Purwakarta, Indonesia</span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Email:</strong> 
-              <span class="text-light">nizzamiramdhan@gmail.com</span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Phone:</strong> 
-              <span class="text-light">+62-858-8174-7164</span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2">
-              <strong class="text-primary">Freelance:</strong> 
-              <span class="text-light">Available</span>
-            </p>
-          </div>
+        <p class="text-light mb-4">
+          Saya aktif mengembangkan project di GitHub, terutama di bidang web development dan data.
+        </p>
+
+        <!-- Github Activity -->
+        <div class="mb-4">
+          <img 
+            src="https://ghchart.rshah.org/Nizzami" 
+            alt="GitHub Contribution" 
+            class="img-fluid rounded"
+          />
         </div>
 
+        <!-- Github Stats -->
+        <!-- <div class="mb-4">
+          <img 
+            src="https://github-readme-stats.vercel.app/api?username=Nizzami&show_icons=true&theme=dark" 
+            class="img-fluid rounded"
+          />
+        </div> -->
+
+        <!-- Contribution Graph -->
+        <!-- <div class="mb-4">
+          <img 
+            src="https://github-readme-activity-graph.vercel.app/graph?username=Nizzami&theme=github-dark" 
+            class="img-fluid rounded"
+          />
+        </div> -->
+
+        <!-- Github Button -->
         <a href="https://github.com/Nizzami" target="_blank" class="btn btn-primary btn-lg px-5">
-          <i class="ri-github-fill me-2"></i> View All Projects
+          <i class="ri-github-fill me-1"></i> Visit My Github
         </a>
       </div>
     </div>
@@ -262,15 +253,15 @@
             <!-- Portfolio Item 1 -->
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="card portfolio-card border-0 shadow-lg overflow-hidden">
-                    <img src="{{ asset('img/web.png') }}" class="card-img-top" alt="Website Design">
+                    <img src="{{ asset('img/tasty.png') }}" class="card-img-top" alt="Tasty Food">
                     <div class="card-body bg-dark p-4">
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h5 class="card-title text-white mb-0">Website Design</h5>
-                            <a href="#" class="btn btn-primary btn-sm rounded-circle d-flex p-0">
+                            <h5 class="card-title text-white mb-0">Tasty Food</h5>
+                            <a href="https://github.com/Nizzami/tasty-food" target="_blank" class="btn btn-primary btn-sm rounded-circle d-flex p-0">
                                 <i class="ri-github-fill"></i>
                             </a>
                         </div>
-                        <h6 class="text-light mb-0">Website Development For Dark X</h6>
+                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya.</h6>
                     </div>
                 </div>
             </div>
