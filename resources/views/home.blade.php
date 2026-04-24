@@ -10,7 +10,7 @@
      </a>
 
     <!-- Mobile Toggle -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <i class="ri-menu-line"></i>
     </button>
 
@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a href="#home" class="nav-link active">Home</a>
+          <a href="#home" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
           <a href="#about" class="nav-link">About</a>
@@ -180,56 +180,47 @@
 
     <!-- Services Cards -->
     <div class="row g-4">
-      <!-- Service 1 -->
+      <!-- Web Development -->
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div class="card service-card h-100 border-0 bg-dark shadow-lg">
           <div class="card-body text-center p-4">
-            <div class="mb-2">
-              <img src="{{ asset('img/ui.png') }}" alt="UI/UX Design" class="img-fluid" style="width: 100px;">
+            <div class="mb-3">
+              <img src="{{ asset('img/web.png') }}" alt="Web Development" class="img-fluid" style="width: 100px;">
             </div>
-            <h5 class="card-title mb-1">UI/UX Designer</h5>
+            <h5 class="card-title text-white" mb-3>Web Development</h5>
             <p class="card-text text-light">
-              Develop responsive and scalable web applications using latest technologies and frameworks.
+              Membangun website responsif dan sistem berbasis web seperti sistem PPDB, dashboard admin, dan aplikasi berbasis database.
             </p>
-            <a href="#" class="btn btn-outline-primary">
-              Learn More <i class="ri-arrow-right-line ms-2"></i>
-            </a>
           </div>
         </div>
       </div>
 
-      <!-- Service 2 -->
+      <!-- Data Science -->
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div class="card service-card h-100 border-0 bg-dark shadow-lg">
           <div class="card-body text-center p-4">
-            <div class="mb-2">
-              <img src="{{ asset('img/ui.png') }}" alt="UI/UX Design" class="img-fluid" style="width: 100px;">
+            <div class="mb-3">
+              <img src="{{ asset('img/web.png') }}" alt="Data Science" class="img-fluid" style="width: 100px;">
             </div>
-            <h5 class="card-title mb-1">Mobile Development</h5>
+            <h5 class="card-title text-white" mb-3>Data Science</h5>
             <p class="card-text text-light">
-              Develop responsive and scalable web applications using latest technologies and frameworks.
+              Mengolah dan menganalisis data untuk menghasilkan insight, prediksi, dan solusi berbasis data menggunakan Python dan tools analisis data.
             </p>
-            <a href="#" class="btn btn-outline-primary">
-              Learn More <i class="ri-arrow-right-line ms-2"></i>
-            </a>
           </div>
         </div>
       </div>
 
-      <!-- Service 3 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <!-- Data Analysis -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
         <div class="card service-card h-100 border-0 bg-dark shadow-lg">
           <div class="card-body text-center p-4">
-            <div class="mb-2">
-              <img src="{{ asset('img/ui.png') }}" alt="UI/UX Design" class="img-fluid" style="width: 100px;">
+            <div class="mb-3">
+              <img src="{{ asset('img/web.png') }}" alt="Data Analysis" class="img-fluid" style="width: 100px;">
             </div>
-            <h5 class="card-title mb-1">Web Development</h5>
+            <h5 class="card-title text-white" mb-3>Data Analysis</h5>
             <p class="card-text text-light">
-              Develop responsive and scalable web applications using latest technologies and frameworks.
+              Membuat laporan, visualisasi, dan dashboard untuk membantu pengambilan keputusan berdasarkan data yang akurat.
             </p>
-            <a href="#" class="btn btn-outline-primary">
-              Learn More <i class="ri-arrow-right-line ms-2"></i>
-            </a>
           </div>
         </div>
       </div>
@@ -238,10 +229,10 @@
 </section>
 
 <!-- Portfolio Section -->
-<section class="portfolio min-vh-100 d-flex align-items-center position-relative bg-dark" id="portfolio">
+<section class="portfolio min-vh-100 d-flex align-items-center pt-5 position-relative bg-dark" id="portfolio">
     <div class="container">
         <!-- Section Title -->
-        <div class="text-center mb-5" data-aos="fade-up">
+        <div class="text-center mb-5 pt-4" data-aos="fade-up">
             <h2 class="display-4 fw-bold text-white">
                 My <span class="text-primary">Portfolio</span>
             </h2>
@@ -261,7 +252,7 @@
                                 <i class="ri-github-fill"></i>
                             </a>
                         </div>
-                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya.</h6>
+                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya</h6>
                     </div>
                 </div>
             </div>
@@ -277,7 +268,7 @@
                                 <i class="ri-github-fill"></i>
                             </a>
                         </div>
-                        <h6 class="text-light mb-0">Website Development For Dark X</h6>
+                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya</h6>
                     </div>
                 </div>
             </div>
@@ -293,7 +284,7 @@
                                 <i class="ri-github-fill"></i>
                             </a>
                         </div>
-                        <h6 class="text-light mb-0">Website Development For Dark X</h6>
+                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya</h6>
                     </div>
                 </div>
             </div>

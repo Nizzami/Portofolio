@@ -1,18 +1,29 @@
-const header = document.querySelector("header");
+const header = document.querySelector("#navbar");
 
 window.addEventListener("scroll", function () {
-    header.classList.toggle("sticky", window.scrollY > 120);
+    if (header) {
+        header.classList.toggle("sticky", window.scrollY > 120);
+    }
 });
 
-let menu = document.querySelector("#menu-icon");
-let navlist = document.querySelector(".navlist");
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-link");
 
-menu.onclick = () => {
-    menu.classList.toggle("bx-x");
-    navlist.classList.toggle("active");
-};
+window.addEventListener("scroll", () => {
+    let current = "";
 
-window.onscroll = () => {
-    menu.classList.remove("bx-x");
-    navlist.classList.remove("active");
-};
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 150;
+
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+});
