@@ -42,7 +42,7 @@ Website portfolio pribadi yang menampilkan profil, layanan, dan project yang tel
 1. Clone repository
 
 ```bash
-git clone https://github.com/USERNAME/portfolio.git
+git clone https://github.com/Nizzami/portfolio.git
 ```
 
 2. Masuk ke folder project
@@ -93,6 +93,13 @@ Website untuk membantu restoran dalam digitalisasi bisnis.
 
 * 🔧 Tech: HTML, CSS, JS
 * 🔗 GitHub: https://github.com/Nizzami/tasty-food
+
+### 🍔 Website Desa Cikamunding
+
+Website untuk membantu pemerintah desa dalam digitalisasi layanan publik
+
+* 🔧 Tech: HTML, CSS, JS
+* 🔗 GitHub: https://github.com/Nizzami/WebsiteDesa
 
 ---
 
