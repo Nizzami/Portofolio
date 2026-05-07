@@ -200,7 +200,7 @@
         <div class="card service-card h-100 border-0 bg-dark shadow-lg">
           <div class="card-body text-center p-4">
             <div class="mb-3">
-              <img src="{{ asset('img/web.png') }}" alt="Data Science" class="img-fluid" style="width: 100px;">
+              <img src="{{ asset('img/data-science.jpg') }}" alt="Data Science" class="img-fluid" style="width: 100px;">
             </div>
             <h5 class="card-title text-white" mb-3>Data Science</h5>
             <p class="card-text text-light">
@@ -215,7 +215,7 @@
         <div class="card service-card h-100 border-0 bg-dark shadow-lg">
           <div class="card-body text-center p-4">
             <div class="mb-3">
-              <img src="{{ asset('img/web.png') }}" alt="Data Analysis" class="img-fluid" style="width: 100px;">
+              <img src="{{ asset('img/data-analyst.jpg') }}" alt="Data Analysis" class="img-fluid" style="width: 100px;">
             </div>
             <h5 class="card-title text-white" mb-3>Data Analysis</h5>
             <p class="card-text text-light">
@@ -260,15 +260,15 @@
             <!-- Portfolio Item 2 -->
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
                 <div class="card portfolio-card border-0 shadow-lg overflow-hidden">
-                    <img src="{{ asset('img/web.png') }}" class="card-img-top" alt="Website Design">
+                    <img src="{{ asset('img/web-desa.png') }}" class="card-img-top" alt="Website Desa">
                     <div class="card-body bg-dark p-4">
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h5 class="card-title text-white mb-0">Website Design</h5>
-                            <a href="#" class="btn btn-primary btn-sm rounded-circle d-flex p-0">
+                            <h5 class="card-title text-white mb-0">Website Desa</h5>
+                            <a href="https://github.com/Nizzami/WebsiteDesa" target="_blank" class="btn btn-primary btn-sm rounded-circle d-flex p-0">
                                 <i class="ri-github-fill"></i>
                             </a>
                         </div>
-                        <h6 class="text-light mb-0">Kami membangun website Tasty Food untuk membantu restoran dalam digitalisasi bisnisnya</h6>
+                        <h6 class="text-light mb-0">Kami membangun website Desa untuk membantu pemerintah desa dalam digitalisasi layanan publik</h6>
                     </div>
                 </div>
             </div>
@@ -308,6 +308,11 @@
         <!-- Contact Form -->
         <div class="row justify-content-center">
           <div class="col-lg-7 col-md-9">
+            @if(session('success'))
+                <div class="alert alert-success text-center mb-4">
+                    {{ session('success') }}
+                </div>
+            @endif
             <form action="{{ route('contact.send') }}" method="POST" class="contact-form" data-aos="zoom-in-up">
               @csrf
 
