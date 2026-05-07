@@ -45,14 +45,14 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="hero min-vh-100 bg-dark d-flex align-items-center position-relative" id="home">
+<section class="hero bg-dark position-relative" id="home">
   <div class="container">
     <div class="row align-items-center gy-5">
       <!-- Text -->
-      <div class="col-lg-6" data-aos="fade-right">
+      <div class="col-lg-6 text-center" data-aos="fade-right">
         <div class="hero-content">
           <h4 class="text-white fw-bold mb-3">Hi, There! 👋</h4>
-          <h1 class="display-4 fw-bold text-white mb-4">
+          <h1 class="hero-title fw-bold text-white mb-4">
             I'm <span class="text-primary">Nizzami Ramdhan</span>
           </h1>
           <p class="lead text-light mb-5">
@@ -92,7 +92,7 @@
         <div class="position-relative text-center">
           <!-- Profile Image -->
           <div class="profile-frame mx-auto position-relative">
-            <div class="rounded-circle overflow-hidden border-5 border-primary shadow-lg" style="width: 400px; height: 400px; margin: 0 auto;">
+            <div class="hero-image rounded-circle overflow-hidden shadow-lg mx-auto">
               <img src="{{ asset('img/zam.png') }}" alt="Nizzami Ramdhan" class="w-100 h-100 object-fit-cover">
             </div>
 
@@ -115,9 +115,9 @@
   <div class="container">
     <div class="row align-items-center gy-5">
       <!-- Image -->
-      <div class="col-lg-5" data-aos="zoom-in">
+      <div class="col-lg-5 pt-5" data-aos="zoom-in">
         <div class="mx-auto position-relative text-center">
-          <div class="rounded-circle overflow-hidden border-5 border-primary" style="width: 350px; height: 350px;">
+          <div class="hero-image rounded-circle overflow-hidden shadow-lg mx-auto">
             <img src="{{ asset('img/zam.png') }}" alt="About Nizam" class="w-100 h-100 object-fit-cover">
           </div>
         </div>
@@ -168,10 +168,10 @@
 </section>
 
 <!-- Services Section -->
-<section class="services min-vh-100 d-flex align-items-center position-relative bg-dark" id="service">
+<section class="services min-vh-100 d-flex align-items-center pt-5 position-relative bg-dark" id="service">
   <div class="container">
     <!-- Section Title -->
-    <div class="text-center mb-5" data-aos="fade-up">
+    <div class="text-center mb-5 pt-4" data-aos="fade-up">
       <h2 class="display-4 fw-bold text-white">
         My <span class="text-primary">Services</span>
       </h2>
@@ -298,7 +298,7 @@
 <section class="contact min-vh-100 d-flex align-items-center position-relative bg-dark" id="contact">
     <div class="container">
         <!-- Section Title -->
-        <div class="text-center mb-5" data-aos="fade-up">
+        <div class="text-center mb-5 pt-4" data-aos="fade-up">
           <h2 class="display-4 fw-bold text-white">
             Contact <span class="text-primary">Me</span>
           </h2>
